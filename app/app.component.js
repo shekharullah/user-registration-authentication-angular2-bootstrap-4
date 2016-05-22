@@ -14,8 +14,8 @@ var AppComponent = (function () {
     }
     AppComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: '<h1>My First Angular 2 App</h1>'
+            selector: 'demo-app',
+            template: "\n<div class=\"container\">\n  <nav class=\"navbar navbar-fixed-top navbar-dark bg-primary\">\n  <button class=\"navbar-toggler hidden-sm-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar2\">\n    &#9776;\n  </button>\n  <div class=\"collapse navbar-toggleable-xs\" id=\"exCollapsingNavbar2\">\n    <a class=\"navbar-brand\" href=\"#\">Responsive navbar</a>\n    <ul class=\"nav navbar-nav\">\n      <li class=\"nav-item active\">\n        <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Registration</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Login</a>\n      </li>\n    </ul>\n  </div>\n</nav>\n</div>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
