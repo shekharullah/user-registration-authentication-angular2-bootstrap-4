@@ -15,7 +15,8 @@ var RegistrationComponent = (function () {
     RegistrationComponent = __decorate([
         core_1.Component({
             selector: 'registration',
-            template: "\n    <div>User Registration</div>\n    "
+            moduleId: module.id,
+            template: "\n    <div class=\"login-page\">\n\t<div class=\"row\">\n\t\t<div class=\"col-lg-6 \">\n\t\t\t<h1>User Registration</h1>\n\t\t\t<form role=\"form\">\n\t\t\t\t<div class=\"form-content\">\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t<input type=\"text\" class=\"form-control input-underline input-lg\" id=\"\" placeholder=\"Full Name\">\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t<input type=\"text\" class=\"form-control input-underline input-lg\" id=\"\" placeholder=\"Email\">\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t<input type=\"password\" class=\"form-control input-underline input-lg\" id=\"\" placeholder=\"Password\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t<input type=\"password\" class=\"form-control input-underline input-lg\" id=\"\" placeholder=\"Repeat Password\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<a type=\"submit\" class=\"btn rounded-btn\" (click)=\"gotoDashboard()\"> Register </a>&nbsp;\n\t\t\t</form>\n\t\t</div>\t\n\t</div>\n</div>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], RegistrationComponent);

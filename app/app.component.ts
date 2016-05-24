@@ -15,7 +15,7 @@ import {LoginComponent} from './components/login/login'
     &#9776;
   </button>
   <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-    <a class="navbar-brand" >Responsive navbar</a>
+    <a class="navbar-brand" >Angular 2.0.0.0 rc1</a>
     <ul class="nav navbar-nav">
       <li class="nav-item active">
         <a name="home" class="nav-link" [routerLink]="['/']">Home <span class="sr-only">(current)</span></a>
